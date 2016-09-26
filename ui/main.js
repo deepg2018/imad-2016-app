@@ -18,7 +18,7 @@ button.oneclick=function()
       }
   };
   
-  request.open('GET','http://http://deepg2018.imad.hasura-app.io/counter',true);
+  request.open('GET','http://deepg2018.imad.hasura-app.io/counter',true);
   request.send(null);
  
  };
