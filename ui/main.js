@@ -9,7 +9,7 @@ button.oneclick=function()
   {
       if(request.readyState==XMLhttpRequest.DONE)
       {
-          if(request.status==200)
+          if(request.status)
           {
               var counter=request.responseText;
               var span=document.getElementById('count');
