@@ -16,7 +16,7 @@ button.oneclick=function()
               span.innerHTML=counter.toString();
           }
       }
-  }
+  };
   
   request.open('GET','http://http://deepg2018.imad.hasura-app.io/counter',true);
   request.send(null);
